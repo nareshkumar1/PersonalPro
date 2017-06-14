@@ -5,7 +5,7 @@
 		text-align:center;
 		width:250px;
 }
-.TextField{
+.textField{
 	border: 2px white;
 	border-radius:5px;
 	font-size:18px
@@ -14,4 +14,21 @@
 	border: 2px white;
 	border-radius:5px;
 	font-size:18px
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.loginButton:hover{
+	background-color:#4CAF50;
+	color:white;
+	
+}
+.loginBackground{
+	display:inline;
+	background-color:white;
+}
+#userName{
+	background-image:url('images/usericon.png') left center no-repeat;
+}
+#password{
+	
 }
