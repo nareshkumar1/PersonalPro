@@ -1,14 +1,28 @@
 @CHARSET "ISO-8859-1";
 .loginTable{
-		margin-top:250px;
-		margin-left:850px;
 		text-align:center;
 		width:250px;
+		margin-top:25px;
+		margin-left:20px;
 }
 .textField{
-	border: 2px white;
+	width: 220px;
+    height: 155px;
+	border: 5px black;
 	border-radius:5px;
-	font-size:18px
+	font-size:18px;
+	text-align:center;
+}
+#loginForm{
+	background-color:white;
+	border: 3px solid gray;
+	border-radius:8px;
+	background-color:gray;
+	width:300px;
+	height:200px;
+	margin-top:225px;
+	margin-left:525px;
+
 }
 .loginButton{
 	border: 2px white;
@@ -16,6 +30,7 @@
 	font-size:18px
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
+
 }
 .loginButton:hover{
 	background-color:#4CAF50;
@@ -25,10 +40,4 @@
 .loginBackground{
 	display:inline;
 	background-color:white;
-}
-#userName{
-	background-image:url('images/usericon.png') left center no-repeat;
-}
-#password{
-	
 }
