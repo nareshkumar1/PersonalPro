@@ -2,7 +2,7 @@
 .loginTable{
 		text-align:center;
 		width:250px;
-		margin-top:25px;
+		margin-top:40px;
 		margin-left:20px;
 }
 .textField{
@@ -12,6 +12,7 @@
 	border-radius:5px;
 	font-size:18px;
 	text-align:center;
+	font-family:"Open Sans", sans-serif; 
 }
 #loginForm{
 	background-color:white;
@@ -27,7 +28,7 @@
 .loginButton{
 	border: 2px white;
 	border-radius:5px;
-	font-size:18px
+	font-size:25px
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 
